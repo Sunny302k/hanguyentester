@@ -193,6 +193,22 @@ ul {
   display: grid;
   gap: 20px;
 }
+.avatar-card {
+  display: flex;
+  margin: 16px 0;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.avatar-card img {
+  width: 150px;
+  height: 150px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid rgba(108, 77, 255, 0.15);
+  box-shadow: 0 18px 35px rgba(27, 31, 59, 0.15);
+}
 
 .glass-card {
   background: rgba(255, 255, 255, 0.85);
@@ -350,7 +366,6 @@ ul {
 .cta {
   background: linear-gradient(135deg, rgba(108, 77, 255, 0.12), rgba(255, 123, 209, 0.15));
   border-radius: 28px;
-  margin: 0 auto 40px;
   padding: 36px;
   display: flex;
   align-items: center;
